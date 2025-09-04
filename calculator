@@ -1,0 +1,20 @@
+  #include <iostream>
+  using namespace std;
+  int main() {
+      int num1, num2 ;
+      cout << "first number: ";
+      cin >> num1;
+      cout << "second number: ";
+      cin >> num2;
+      cout << "third number: ";
+     cout << "Addition: " << num1 + num2 << endl;
+      cout << "Subtraction: " << num1 - num2 << endl;
+      cout << "Multiplication: " << num1 * num2 << endl;
+        if (num2 != 0) {
+          cout << "Division: " << num1 / num2 << endl;
+          cout << "modulus: " << num1 % num2 << endl;
+      } else {
+          cout << "Division and modulus by zero is not allowed!" << endl;
+      }
+    return 0;
+}
