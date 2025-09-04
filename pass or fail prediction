@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    float marks;
+    cout << "Enter your marks: ";
+    cin >> marks;
+
+    if (marks >= 40) {
+        cout << "Congratulations! You have passed" << endl;
+    } else {
+        cout << "You failed the exam." << endl;
+    }
+
+    return 0;
+}
