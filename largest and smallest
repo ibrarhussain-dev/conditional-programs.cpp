@@ -1,0 +1,48 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  float a, b, c, d, e, max, min;
+      cout << "Enter 1st number: ";
+  cin >> a;
+      cout << "Enter 2nd number: ";
+  cin >> b;
+      cout << "Enter 3rd number: ";
+  cin >> c;
+      cout << "Enter 4th number: ";
+  cin >> d;
+      cout << "Enter 5th number: ";
+  cin >> e;
+
+  max = a;
+  if(b > max) {
+    max = b;
+  }
+  if(c > max) {
+    max = c;
+  }
+  if(d > max) {
+    max = d;
+  }
+  if(e > max) {
+    max = e;
+  }
+  min = a;
+  if(b < min) {
+    min = b;
+  }
+  if(c < min) {
+    min = c;
+  }
+  if(d < min) {
+    min = d;
+  }
+  if(e < min) {
+    min = e;
+  }
+
+  cout << "The largest number is: " << max << endl;
+  cout << "The smallest number is: " << min << endl;
+
+  return 0;
+}
