@@ -1,0 +1,15 @@
+  #include <iostream>
+  using namespace std;
+  int main() {
+    int salary;
+    cout<<"enter a salary:";
+    cin>>salary;
+    int grade;
+    cout<<"enter a grade:";
+    cin>>grade;
+    if(grade>=15)
+      cout<<"total salary"<<salary+(salary*0.5)<<endl;
+    else
+      cout<<"total salary"<<salary+(salary*0.25)<<endl;
+    return 0;
+  }
