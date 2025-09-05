@@ -1,0 +1,19 @@
+  #include <iostream>
+  using namespace std;
+  int main() {
+    int cost_price, selling_price;
+    cout << "Enter cost price: ";
+    cin >> cost_price;
+    cout << "Enter selling price: ";
+    cin >> selling_price;
+
+    if (selling_price > cost_price) {
+      cout << "Profit: " << selling_price - cost_price << endl;
+    } else if (selling_price < cost_price) {
+      cout << "Loss: " << cost_price - selling_price << endl;
+    } else {
+      cout << "No profit, no loss." << endl;
+    }
+
+    return 0;
+  }
