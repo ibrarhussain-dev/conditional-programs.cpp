@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int unit;
+    float bill;
+    cout << "put the unit : " ;
+    cin>>unit;
+    if(unit>300){
+        bill=unit*5;
+    }
+    else if(unit>500){
+        bill=unit*7;
+    }
+    else{
+        bill=unit*2;
+    }
+bill=(bill+150);
+if(bill>2000)
+cout<<"total bill : "<<bill+(bill*0.05)<<endl;
+else
+cout<<"total bill : "<<bill<<endl;
+}
