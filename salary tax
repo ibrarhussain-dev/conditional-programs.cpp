@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int salary;
+    float netSalary;
+    cout << "put the salary : " ;
+    cin>>salary;
+    if(salary>20000){
+       cout<<" net salary : "<<salary-salary*0.07<<endl;
+    }
+    else if(salary>10000){
+       cout<< "net salary : " <<salary-1000<<endl;
+    }
+    else
+       cout<<"total salary : "<<salary<<endl;
+}
