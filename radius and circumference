@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int n;
+    float a, r, c;
+    cout<<"enter 1 for radius / enter 2 for circumference : ";
+    cin>>n;
+    cout<<"enter radius : ";
+    cin>>r;
+if(n==1){
+    a=r*r*3.14;
+    cout<<"radius : "<<a<<endl;
+}
+if(n==2){
+    c=2.0*3.14*r;
+    cout<<"circumference : "<<c<<endl;
+}
+
+}
