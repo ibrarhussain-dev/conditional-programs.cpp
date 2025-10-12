@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+int main(){
+    char ch;
+    cout<<"enter a chararter : ";
+    cin>>ch;
+    if(ch=='j'  ||  ch=='J'){
+        cout<<"'your salary is Rs/-275 per week'"<<endl;
+    }
+    else if(ch=='s'  ||  ch=='S'){
+        cout<<"'your salary is Rs/-400 per week'"<<endl;
+    }
+    else
+        cout<<"'invaild status' ";
+
+}
