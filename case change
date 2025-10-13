@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    char n;
+    cout << "Enter a letter: ";
+    cin >> n;
+    if(n>='A' && n<='Z'){
+    char ch = n + 32;
+    cout << "The corresponding small letter is: " << ch << endl;
+}
+else if(n>='a' && n<='z'){
+    char ch = n - 32;
+    cout << "The corresponding capital letter is: " << ch << endl;
+}
+else{
+    cout<<"you have not entered an alphabet"<<endl;
+}
+    return 0;
+}
