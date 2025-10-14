@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int a, b;
+    cout<<"enter the lower and upper blood pressure:";
+    cin>>a;
+    cin>>b;
+    if(a==80 && b==120){
+        cout<<"blood pressure is normal"<<endl;
+    }
+    else if(a>80 || b>120){
+        cout<<"blood pressure is high"<<endl;
+    }
+    else
+    cout<<"blood pressure is low ";
+}
