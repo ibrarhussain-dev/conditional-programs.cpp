@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+    int a, b;
+    char op;
+    cout<<"enter numbers :";
+    cin>>a;
+    cin>>op;
+    cin>>b;
+    if(op=='+'){
+        cout<<"sum = "<<a+b<<endl;
+    }
+    else if(op=='-'){
+        cout<<"difference = "<<a-b<<endl;
+    }
+    else if(op=='*'){
+        cout<<"product = "<<a*b<<endl;
+    }
+    else if(op=='/'){
+        cout<<"divide = "<<a/b<<endl;
+    }
+    else if(op=='%'){
+        cout<<"reminder = "<<a%b<<endl;
+    }
+    else
+        cout<<"invalid input";
+}
