@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int n;
+    cout <<" press :\n 1 for islamic contact\n 2 for music\n 3 for gaming stuff"<<endl;
+    cin>>n;
+    switch(n)
+    {
+        case 1:
+        cout<<"go to the drive C";
+        break;
+
+        case 2:
+        cout<<"go to the drive E";
+        break;
+
+        case 3:
+        cout<<"go to the drive G";
+        break;
+    }
+    return 0;
+}
