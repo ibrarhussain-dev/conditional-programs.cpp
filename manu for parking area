@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+int main(){
+    char type;
+    int days;
+    cout<<"Manu for parking area"<<endl;
+    cout<<"B=bus C=car M= motercycle"<<endl;
+    cout<<"enter type of veichle : ";
+    cin>>type;
+    cout<<"enter number of days : ";
+    cin>>days;
+    
+    switch (type)
+    {
+        case 'b':
+    cout<<"total dues : "<<30*days<<endl;
+    break;
+
+        case 'c':
+    cout<<"total dues : "<<20*days<<endl;
+    break;
+                
+        case 'm':
+    cout<<"total dues : "<<10*days<<endl;
+    break;
+
+    default :
+    cout<<"invaild statement"<<endl;
+         break;
+    }
+    }
