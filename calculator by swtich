@@ -1,0 +1,30 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+    int a, b;
+    char op;
+    cout<<"enter numbers :";
+    cin>>a;
+    cin>>op;
+    cin>>b;
+    switch(op){
+    case '+':
+        cout<<"sum = "<<a+b<<endl;
+        break;
+    case '-':
+        cout<<"difference = "<<a-b<<endl;
+        break;
+    case '*':
+        cout<<"product = "<<a*b<<endl;
+        break;
+    case '/':
+        cout<<"divide = "<<a/b<<endl;
+        break;
+    case '%':
+        cout<<"reminder = "<<a%b<<endl;
+        break ;
+    default :
+        cout<<"invalid input";
+}
+}
